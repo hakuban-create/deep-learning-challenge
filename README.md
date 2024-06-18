@@ -1,9 +1,11 @@
 Charity Donation Prediction Model
 
 
+
 Objective
 
 The objective of this project was to develop a predictive model using machine learning techniques to determine the likelihood of success of charitable donations based on various features from the charity dataset.
+
 
 
 
@@ -23,6 +25,7 @@ The dataset (charity_data.csv) was imported and processed as follows:
     * Numerical features were standardized using StandardScaler to ensure all features were on a similar scale, which is crucial for the performance of deep learning models.
   
 
+
       
 Model Development
 
@@ -38,6 +41,7 @@ The predictive model was constructed using TensorFlow/Keras, utilizing Keras Tun
     * After completing the tuning process, the model with the highest validation accuracy was selected.
     * The best hyperparameters were recorded, including activation functions, number of units in each layer, and learning rate.
 
+
   
       
 Results
@@ -45,6 +49,7 @@ Results
 Upon completion of the hyperparameter tuning process, the best performing model achieved the following metrics on the test set:
 * Accuracy: Approximately 72.77%
 * Loss: 0.5570
+
 
   
 Conclusion
