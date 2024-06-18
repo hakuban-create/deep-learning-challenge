@@ -39,5 +39,6 @@ Upon completion of the hyperparameter tuning process, the best performing model 
 * Loss: 0.5570
   
 Conclusion
+
 The developed deep learning model demonstrates promising performance in predicting the success of charitable donations based on the provided dataset. Through effective data preprocessing, feature engineering, and hyperparameter tuning, the model was able to achieve a competitive accuracy score. Further enhancements could involve more extensive feature selection, additional tuning of hyperparameters, or exploring ensemble methods to potentially improve performance further.
  
